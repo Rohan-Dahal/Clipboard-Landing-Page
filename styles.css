@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bai Jamjuree;
+}
+header{
+    background-image: url(images/bg-header-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    
+}
+.heading,.bottom{
+    text-align: center;
+    height: 145px;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: hsl(210, 10%, 33%);
+}
+.heading-text p,.bottom-text p{
+    margin: 5px 145px 0px 140px;
+    line-height: 20px;
+    color: hsl(201, 11%, 66%);
+}
+
+.ios{
+    height: 36px;
+    width: 150px;
+    border-radius: 18px;
+    color: white;
+    margin-right: 10px;
+    border: hsl(171, 66%, 44%);
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 3px 0px hsl(171, 66%, 31%);
+}
+.android{
+   height: 36px;
+    width: 150px;
+    border-radius: 18px;
+    color: white;
+    border: hsl(233, 100%, 69%);
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px 0px hsl(233, 47%, 52%);
+}
+.ios:hover{
+    background-color: hsl(171, 57%, 50%);
+    box-shadow: 0px 3px 5px hsl(171, 66%, 31%);
+    cursor: pointer;
+}
+.android:hover{
+    background-color: hsl(233, 90%, 72%);
+    box-shadow: 0px 3px 5px hsl(233, 47%, 52%);
+    cursor: pointer;
+}
+/* for keyboard (TAB key) */
+.ios:focus{
+    background-color: hsl(171, 57%, 50%);
+    box-shadow: 0px 3px 5px hsl(171, 66%, 31%);
+    cursor: pointer;
+}
+.header-footer{
+    text-align: center;
+    width: 59%;
+    color: hsl(210, 10%, 33%);
+}
+.header-footer p{
+    margin: 10px 120px 0px 120px;
+    line-height: 20px;
+     color: hsl(201, 11%, 66%);
+}
+
+section{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+ 
+}
+.image-computer{
+    margin-left: -40px;
+    height: 450px;
+    
+}
+.right-text{
+    height: 300px;
+    width: 30%;
+    margin-top: -80px;
+   display: flex;
+   flex-direction: column;
+   color: hsl(210, 10%, 33%);
+}
+.right-text p{
+    margin: 10px 0px 42px 0px;
+    color: hsl(201, 11%, 66%);
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    height: 600px;
+
+}
+.devices-text{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: hsl(210, 10%, 33%);
+}
+article p{
+    text-align: center;
+    margin: 10px 100px 60px 100px;
+    color: hsl(201, 11%, 66%);
+}
+.devices{
+    height: 450px;
+}
+aside{
+    height: 45vh;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+   
+}
+.workflow{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+.workflow p{
+    color: hsl(201, 11%, 66%);
+}
+.tools-list{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-one, .card-two, .card-three{
+    width: 30%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: hsl(210, 10%, 33%);
+}
+.card-one p, .card-two p, .card-three p{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    margin-top: 5px;
+}
+.card-one img, .card-two img, .card-three img{
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.company-logos{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.company-logos h2{
+    display: none;
+}
+ 
+/* last article */
+.last-article{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    height: 45vh;
+}
+.bottom-text p{
+    margin: 15px 120px 40px 120px;
+    line-height: 25px;
+    color: hsl(201, 11%, 66%);
+}
+
+footer{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsla(202, 11%, 66%, 0.308);
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+li{
+    list-style: none;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+a:hover{
+    cursor: pointer;
+    color:hsl(171, 66%, 44%);
+}
+.social-media{
+    display: flex;
+    gap: 20px;
+}
+.social-media img:hover{
+    cursor: pointer;
+    filter: invert(59%) sepia(100%) saturate(347%) hue-rotate(121deg) brightness(90%) contrast(83%);
+}
